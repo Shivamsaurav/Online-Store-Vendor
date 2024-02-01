@@ -9,8 +9,8 @@ import lombok.Setter;
 @Getter
 public class VendorDto {
 
-	private Integer vendorId;
-	private String vendorName;
-	private String vendorAddress;
-	private String vendorcontact;
+  private Integer vendorId;
+  private String vendorName;
+  private String vendorAddress;
+  private String vendorcontact;
 }
