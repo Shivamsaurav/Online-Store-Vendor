@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class OnlineStoreVendorApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(OnlineStoreVendorApiApplication.class, args);
-	}
-    
-	@Bean
-	public ModelMapper modelMapper() {
-		return new ModelMapper();
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(OnlineStoreVendorApiApplication.class, args);
+  }
+
+  @Bean
+  public ModelMapper modelMapper() {
+    return new ModelMapper();
+  }
 }
